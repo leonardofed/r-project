@@ -1,9 +1,8 @@
 #You need all these packages to succesfully execute this
-install.packages("highcharter")
-install.packages("googleAnalyticsR")
-install.packages("reshape2")
-install.packages("forecast")
-
+if(!require(highcharter)) install.packages("highcharter")
+if(!require(googleAnalyticsR)) install.packages("googleAnalyticsR")
+if(!require(reshape2)) install.packages("reshape2")
+if(!require(forecast)) install.packages("forecast")
 
 library(highcharter)
 library(googleAnalyticsR)

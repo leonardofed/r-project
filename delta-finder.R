@@ -1,3 +1,5 @@
+if(!require(googleAnalyticsR)) install.packages("googleAnalyticsR")
+
 library(googleAnalyticsR)
 ga_auth()
 
