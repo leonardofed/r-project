@@ -1,3 +1,8 @@
+if(!require(googleAnalyticsR)) install.packages("googleAnalyticsR")
+if (!require(knitr)) install.packages("knitr")
+if (!require(ggplot2)) install.packages("ggplot2")
+if (!require(reshape2)) install.packages("reshape2")
+
 library(googleAnalyticsR)
 library(knitr)
 ga_auth()
